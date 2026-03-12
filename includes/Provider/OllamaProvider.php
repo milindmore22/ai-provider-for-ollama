@@ -70,7 +70,12 @@ class OllamaProvider extends AbstractApiProvider {
 			'Ollama',
 			ProviderTypeEnum::cloud(),
 			'https://ollama.com/settings/keys',
-			RequestAuthenticationMethod::apiKey()
+			RequestAuthenticationMethod::apiKey(),
+			__(
+				'Ollama is a self-hosted platform for managing and deploying large language models (LLMs).',
+				'ai-provider-for-ollama'
+			),
+			AI_PROVIDER_FOR_OLLAMA_PLUGIN_DIR . 'assets/images/ollama-logo.svg'
 		);
 	}
 
