@@ -3,7 +3,7 @@ Contributors:      fueled, 10up
 Tags:              ai, ollama, llm, local-ai, connector
 Requires at least: 7.0
 Tested up to:      7.0
-Stable tag:        1.1.0
+Stable tag:        1.1.1
 Requires PHP:      7.4
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -62,6 +62,14 @@ By default, the provider connects to `http://localhost:11434`. You can change th
 1. Settings > Ollama screen showing available AI models and Host URL configuration.
 
 == Changelog ==
+
+= 1.1.1 - 2026-05-14 =
+
+**Added**
+- Ensure the AI plugin sees Ollama as a valid, connected provider within the status dashboard widget (props [@dkotter](https://github.com/dkotter), [@jeffpaul](https://github.com/jeffpaul) via [#55](https://github.com/Fueled/ai-provider-for-ollama/pull/55)).
+
+**Fixed**
+- More robust path inclusion for the logo (props [@dkotter](https://github.com/dkotter), [@abcdatos](https://profiles.wordpress.org/abcdatos/) via [#61](https://github.com/Fueled/ai-provider-for-ollama/pull/61)).
 
 = 1.1.0 - 2026-04-23 =
 
